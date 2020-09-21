@@ -1,7 +1,7 @@
 # Wedding Registry
 
 ## About The Project
-![screenshot](portfolio image link here)
+![screenshot](https://www.gabe-dev.com/images/weddingRegistry.png)
 
  Wedding Registry Web Application
 
