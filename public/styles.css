@@ -1,0 +1,40 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1509927083803-4bd519298ac4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  /* background-position: */
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+h3{
+  margin-top: 40px;
+}
+.h1{
+  margin-top: 50px;
+  display: flex;
+  justify-content:center;
+}
+.h2{
+  display: flex;
+  justify-content:center;
+
+}
+.h3{
+  display: flex;
+  justify-content:center;
+
+}
+.ul{
+  display: flex;
+  justify-content:center;
+
+}
+.addMsg{
+  display: flex;
+  justify-content:center;
+
+}
+.input{
+  display: flex;
+  justify-content:center;
+
+}

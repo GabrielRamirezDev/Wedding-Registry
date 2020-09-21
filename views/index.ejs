@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ezWedding Registry</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="h1">
+    <h1>ezWedding Registry</h1>
+  </section>
+  <section class="h2">
+    <h2>The best day of your life made ez!</h2>
+  </section>
+<section class="h3">
+  <h3>Guest List</h3>
+</section>
+<section class="ul">
+  <ul class="messages">
+  <% for(var i=0; i<messages.length; i++) {%>
+    <li class="message">
+      <span><%= messages[i].name %></span>
+      <span><%= messages[i].msg %></span>
+      <span><%= messages[i].email %></span>
+      <span><%= messages[i].gift %></span>
+
+      <!-- <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+      <span><i class="fa fa-thumbs-down" aria-hidden="true"></i></span> -->
+      <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+    </li>
+  <% } %>
+  </ul>
+</section>
+<section class="addMsg">
+  <h2>Register</h2>
+</section>
+<section class="input">
+  <form action="/messages" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="relationship" name="msg">
+    <input type="email"  placeholder="email" name="email" value="">
+    <input type="text"  placeholder="gift" name="gift" value="">
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+  <script src="main.js"></script>
+</body>
+</html>
